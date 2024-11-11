@@ -1,7 +1,6 @@
 package org.example.landingpage.components
 
 import androidx.compose.runtime.Composable
-import org.example.landingpage.util.Constants.WEBSITE
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.foundation.layout.Row
@@ -50,10 +49,10 @@ fun socialBar(row: Boolean = false) {
 @Composable
 private fun SocialLinks(row: Boolean = false) {
     Link(
-        path = WEBSITE,
+        path = "https://github.com/Garfend",
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
-        FaFacebook(
+        FaGithub(
             modifier = SocialLinkStyle.toModifier()
                 .margin(
                     bottom = if (row) 0.px else 40.px,
@@ -62,34 +61,9 @@ private fun SocialLinks(row: Boolean = false) {
             size = IconSize.LG
         )
     }
+
     Link(
-        path = WEBSITE,
-        openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
-    ) {
-        FaTwitter(
-            modifier = SocialLinkStyle.toModifier()
-                .margin(
-                    bottom = if (row) 0.px else 40.px,
-                    right = if (row) 40.px else 0.px
-                ),
-            size = IconSize.LG
-        )
-    }
-    Link(
-        path = WEBSITE,
-        openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
-    ) {
-        FaInstagram(
-            modifier = SocialLinkStyle.toModifier()
-                .margin(
-                    bottom = if (row) 0.px else 40.px,
-                    right = if (row) 40.px else 0.px
-                ),
-            size = IconSize.LG
-        )
-    }
-    Link(
-        path = WEBSITE,
+        path = "https://www.linkedin.com/in/abdelrahman-abdelwahab-abo-ibrahim-91a01a214/",
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
         FaLinkedin(

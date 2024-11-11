@@ -20,7 +20,7 @@ import com.varabyte.kobweb.silk.style.toModifier
 import com.varabyte.kobweb.silk.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.theme.breakpoint.rememberBreakpoint
 import kotlinx.browser.document
-import org.example.landingpage.components.PortfolioCard
+import org.example.landingpage.components.portfolioCard
 import org.example.landingpage.components.sectionTitle
 import org.example.landingpage.models.Portfolio
 import org.example.landingpage.models.Section
@@ -30,7 +30,7 @@ import org.jetbrains.compose.web.css.percent
 import org.jetbrains.compose.web.css.px
 
 @Composable
-fun PortfolioSection() {
+fun portfolioSection() {
     Box(
         modifier = Modifier
             .id(Section.Portfolio.id)
@@ -39,12 +39,12 @@ fun PortfolioSection() {
             .backgroundColor(Theme.LightGrayBg.rgb),
         contentAlignment = Alignment.Center
     ) {
-        PortfolioContent()
+        portfolioContent()
     }
 }
 
 @Composable
-fun PortfolioContent() {
+fun portfolioContent() {
     val breakpoint = rememberBreakpoint()
     Column(
         modifier = Modifier
@@ -61,12 +61,13 @@ fun PortfolioContent() {
             section = Section.Portfolio
         )
         portfolioCards(breakpoint = breakpoint)
-        PortfolioNavigation()
+        portfolioNavigation()
     }
 }
 
 @Composable
 fun portfolioCards(breakpoint: Breakpoint) {
+
     Row(
         modifier = Modifier
             .id("scrollableContainer")
@@ -81,18 +82,18 @@ fun portfolioCards(breakpoint: Breakpoint) {
             .scrollBehavior(ScrollBehavior.Smooth)
     ) {
         Portfolio.entries.forEach { portfolio ->
-            PortfolioCard(
+            portfolioCard(
                 modifier = Modifier.margin(
                     right = if (portfolio != Portfolio.Five) 25.px else 0.px
                 ),
-                portfolio = portfolio
+                portfolio = portfolio,
             )
         }
     }
 }
 
 @Composable
-fun PortfolioNavigation() {
+fun portfolioNavigation() {
     Row(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.Center

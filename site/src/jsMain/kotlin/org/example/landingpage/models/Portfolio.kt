@@ -5,31 +5,38 @@ import org.example.landingpage.util.Res
 enum class Portfolio(
     val image: String,
     val title: String,
-    val description: String
+    val description: String,
+    val link: String
 ) {
     One(
         image = Res.Image.portfolio1,
-        title = "Kudoe",
-        description = "Web Design"
+        title = "MuseMagic",
+        description = "Android App - kotlin",
+        link = "https://github.com/Garfend/HistoryVerse"
     ),
     Two(
         image = Res.Image.portfolio2,
-        title = "Landing Page for NFT",
-        description = "Frontend"
+        title = "Job-inder",
+        description = "Mobile app - flutter",
+        link = "https://github.com/mostafa1255/Job_Finder_App"
     ),
     Three(
         image = Res.Image.portfolio3,
-        title = "NFT Application",
-        description = "Frontend/Backend"
+        title = "Landing page",
+        description = "Frontend - jetpack compose",
+        link = ""
+
     ),
     Four(
         image = Res.Image.portfolio4,
-        title = "Game Statistics Application",
-        description = "Web/Mobile App"
+        title = "Expenser",
+        description = "Mobile App - flutter",
+        link = "https://github.com/Garfend/expenses-tracker"
     ),
     Five(
         image = Res.Image.portfolio5,
-        title = "Platform for Online Courses",
-        description = "Web/Mobile App"
+        title = "Titanuim gym",
+        description = "UI/UX Design",
+        link = "https://www.figma.com/design/CdmOjyxgnziOM7jJso5zZ4/Titanium-Gym?t=tzsjDlRk7ZkYtHiQ-0"
     )
 }

@@ -1,6 +1,7 @@
 package org.example.landingpage.models
 
-import org.example.landingpage.util.Constants.LOREM_IPSUM_SHORT
+
+import org.example.landingpage.util.Constants.LOREM_IPSUM_SHORTEST
 import org.example.landingpage.util.Res
 
 enum class Testimonial(
@@ -13,36 +14,36 @@ enum class Testimonial(
         image = Res.Image.avatar1,
         fullName = "Milica Ilic",
         profession = "Web Designer",
-        review = LOREM_IPSUM_SHORT
+        review = LOREM_IPSUM_SHORTEST
     ),
     Second(
         image = Res.Image.avatar2,
         fullName = "Stefan Jovanovic",
         profession = "Android Developer",
-        review = LOREM_IPSUM_SHORT
+        review = LOREM_IPSUM_SHORTEST
     ),
     Third(
         image = Res.Image.avatar3,
         fullName = "Ana Milic",
         profession = "Business Analyst",
-        review = LOREM_IPSUM_SHORT
+        review = LOREM_IPSUM_SHORTEST
     ),
     Fourth(
         image = Res.Image.avatar4,
         fullName = "Darko Pesic",
         profession = "Top Manager",
-        review = LOREM_IPSUM_SHORT
+        review = LOREM_IPSUM_SHORTEST
     ),
     Fifth(
         image = Res.Image.avatar5,
         fullName = "Milena Nesovic",
         profession = "HR Recruiter",
-        review = LOREM_IPSUM_SHORT
+        review = LOREM_IPSUM_SHORTEST
     ),
     Sixth(
         image = Res.Image.avatar6,
         fullName = "Aca Rodic",
         profession = "Cyber Security Analyst",
-        review = LOREM_IPSUM_SHORT
+        review = LOREM_IPSUM_SHORTEST
     )
 }

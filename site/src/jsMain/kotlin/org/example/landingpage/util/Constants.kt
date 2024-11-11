@@ -1,7 +1,7 @@
 package org.example.landingpage.util
 
 object Constants {
-    const val WEBSITE = "https://stevdza-san.com/"
+
     const val SECTION_WIDTH = 1920
     const val FONT_FAMILY = "Roboto"
 
@@ -9,8 +9,13 @@ object Constants {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     const val LOREM_IPSUM_SHORTEST =
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    const val LOREM_IPSUM_SHORT =
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    val  ABOUT_ME_INFO = listOf("Hello, I am Abdelrahman Abdelwahab, I am a Mobile App Developer and UI/UX Designer with a strong background in creating innovative, user-centered mobile applications.",
+    "- With expertise in Mobile development using Kotlin and Java for Android, and Flutter for cross-platform,",
+    "- I build apps that are not only just functional but also visually engaging and responsive.",
+    "- Full project management from start to finish",
+    "- Regular communication is important to me, so let’s keep in touch.")
+
+
 }
 
 object Res {

@@ -1,6 +1,7 @@
 package org.example.landingpage.styles
 
 import com.varabyte.kobweb.compose.css.CSSTransition
+import com.varabyte.kobweb.compose.css.Transition
 import com.varabyte.kobweb.compose.css.TransitionProperty
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.borderRadius
@@ -20,7 +21,7 @@ val AboutImageStyle = CssStyle {
             .styleModifier { filter { grayscale(100.percent) } }
             .borderRadius(r = 0.px)
             .rotate(0.deg)
-            .transition(CSSTransition(property = TransitionProperty.All, duration = 200.ms))
+            .transition(Transition.of(property = TransitionProperty.All, duration = 200.ms))
     }
     hover {
         Modifier
@@ -34,7 +35,7 @@ val AboutTextStyle = CssStyle {
     base {
         Modifier
             .opacity(50.percent)
-            .transition(CSSTransition(property = "opacity", duration = 200.ms))
+            .transition(Transition.of(property = "opacity", duration = 200.ms))
     }
     hover {
         Modifier.opacity(100.percent)

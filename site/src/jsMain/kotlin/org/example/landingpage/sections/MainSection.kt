@@ -19,6 +19,7 @@ import com.varabyte.kobweb.silk.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.style.toModifier
 import com.varabyte.kobweb.silk.theme.breakpoint.rememberBreakpoint
 import org.example.landingpage.components.header
+import org.example.landingpage.components.mainBackground
 import org.example.landingpage.components.socialBar
 import org.example.landingpage.models.Section
 import org.example.landingpage.models.Theme
@@ -34,48 +35,32 @@ fun mainSection(onMenuClicked: () -> Unit) {
     Box(
         modifier = Modifier
             .id(Section.Home.id)
-            .maxWidth(SECTION_WIDTH.px),
-        contentAlignment = Alignment.TopCenter
+            .maxWidth(SECTION_WIDTH.px)
+            .maxHeight(100.percent),
+        contentAlignment = Alignment.Center
     ) {
         mainBackground( )
         mainContent(onMenuClicked = onMenuClicked)
     }
 }
 
-@Composable
-fun mainBackground() {
-    Image(
-        modifier = Modifier
-            .fillMaxSize()
-            .objectFit(ObjectFit.Cover),
-        src = Res.Image.background,
-        alt = "Background Image"
-    )
-}
+
 
 @Composable
 fun mainContent(onMenuClicked: () -> Unit) {
     val breakpoint = rememberBreakpoint()
     Column(
         modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.SpaceBetween,
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
     ) {
         header(onMenuClicked = onMenuClicked)
         Column(
             modifier = Modifier.fillMaxSize(),
-            verticalArrangement = Arrangement.Bottom,
-            horizontalAlignment = Alignment.CenterHorizontally
+                    horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
         ) {
-            SimpleGrid(
-                modifier = Modifier.fillMaxWidth(
-                    if (breakpoint >= Breakpoint.MD) 80.percent
-                    else 90.percent
-                ),
-                numColumns = numColumns(base = 1, md = 2)
-            ) {
                 mainText(breakpoint = breakpoint)
-            }
         }
     }
 }
@@ -83,7 +68,7 @@ fun mainContent(onMenuClicked: () -> Unit) {
 @Composable
 fun mainText(breakpoint: Breakpoint) {
     Row(
-        horizontalArrangement = Arrangement.Center,
+        horizontalArrangement = Arrangement.Start,
         verticalAlignment = Alignment.CenterVertically
     ) {
         if (breakpoint > Breakpoint.MD) {

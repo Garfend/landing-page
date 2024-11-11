@@ -2,7 +2,6 @@ package org.example.landingpage.components
 
 import androidx.compose.runtime.Composable
 import org.example.landingpage.util.Constants.FONT_FAMILY
-import org.example.landingpage.util.Constants.WEBSITE
 import org.example.landingpage.util.Res
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.css.ObjectFit
@@ -28,15 +27,14 @@ import org.jetbrains.compose.web.dom.P
 import org.jetbrains.compose.web.dom.Text
 
 @Composable
-fun PortfolioCard(
+fun portfolioCard(
     modifier: Modifier = Modifier,
     portfolio: Portfolio,
-    link: String = WEBSITE
 ) {
     Link(
         modifier = PortfolioSectionStyle.toModifier()
             .textDecorationLine(TextDecorationLine.None),
-        path = link,
+        path = portfolio.link,
         openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
     ) {
         Column(
