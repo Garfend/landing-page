@@ -1,0 +1,19 @@
+{
+  "name": "landingpage",
+  "version": "unspecified",
+  "private": true,
+  "workspaces": [
+    "packages\\landingpage",
+    "packages\\landingpage-test",
+    "packages\\worker-3a2c",
+    "packages\\worker-3a2c-test",
+    "packages_imported\\html-core-js\\1.6.11",
+    "packages_imported\\kotlin-test-js-runner\\0.0.2"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": [],
+  "resolutions": {}
+}

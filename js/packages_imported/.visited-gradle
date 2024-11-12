@@ -1,0 +1,88 @@
+{
+  "version": "9",
+  "items": {
+    "7b895d6eba944634ba1404d3d02623e4": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-js\\2.0.20\\f2fd1ead34110de298c135734770cf87dc136dd9\\kotlin-stdlib-js-2.0.20.klib"
+    },
+    "03db1d31f832ab3d78b4cb1f877b57a3": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-dom-api-compat\\2.0.20\\537dbda0c5c5ee06c81b2c0d1f466df60d810e3f\\kotlin-dom-api-compat-2.0.20.klib"
+    },
+    "a63f87e3ce8ea92957d58df4b280737b": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\kobweb-worker\\0.19.2\\8c2d3b3e7e6aa92733167f241b819507e2f29344\\kobweb-worker-js-0.19.2.klib"
+    },
+    "ce94b4f77bbc13d33ab52476ec853265": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\kobweb-worker-interface\\0.19.2\\bf2da31fb6ed13c9421d4f7e6d1bfa4e83c7419f\\kobweb-worker-interface-js-0.19.2.klib"
+    },
+    "d6e66c44ec25ceb9cb5629813a186e59": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\kobweb-serialization-js\\0.19.2\\a7aaae1b3ec3fbcfbb6763ddccc696fbe5dabc98\\kobweb-serialization-js-0.19.2.klib"
+    },
+    "fffad12d968e557f4c38a7f8f56b463e": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-test-js-runner\\2.0.20\\99e060b94579ec8542bc53e141b0d7ed9a48ad5d\\kotlin-test-js-runner-2.0.20.jar",
+      "target": "kotlin-test-js-runner\\0.0.2"
+    },
+    "e32b1f7ea3e5d3f82a02e98a14fae2d7": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.runtime\\runtime-js\\1.6.11\\1484380a34adb77f0d6b76fc732ef9f74733c8cd\\runtime-js-1.6.11.klib"
+    },
+    "7863099849b1ae49e070fccd37807533": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.collection-internal\\collection-js\\1.6.11\\e28bbce3d18fee707bf4579719dd2d98e4a59291\\collection-js-1.6.11.klib"
+    },
+    "13e66c9c0bf4abb0871b96eeb1dec610": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.annotation-internal\\annotation-js\\1.6.11\\6929ebfef24ab0afa0bfa7509b33527d10b2782c\\annotation-js-1.6.11.klib"
+    },
+    "ba8177ecda3981427862b37308d71b44": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\atomicfu-js\\0.23.2\\e19f377f0dc24137414f5f3e1be730f60aeb9539\\atomicfu-js-0.23.2.klib"
+    },
+    "ec5f683e2e51ee8e5cdb632f5487b6e0": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-coroutines-core-js\\1.8.1\\6d0facd74a1b6ae17fa00d7034f31bde38ed4b2\\kotlinx-coroutines-core-js-1.8.1.klib"
+    },
+    "e9306c2451bbe8784372b11cb78554d0": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlinx-atomicfu-runtime\\1.9.23\\373f8846d435f6e7f77453cefbb97c548ae4781e\\kotlinx-atomicfu-runtime-1.9.23.klib"
+    },
+    "6fa62b73ffa0904eba15ea87c9a7346e": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.html\\html-core-js\\1.6.11\\4617b7cb1fafb28566755c408d19173c4fc27a13\\html-core-js-1.6.11.klib",
+      "target": "html-core-js\\1.6.11"
+    },
+    "5cfe4cfbcd6f15f29faebd70d2133e7a": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.compose.html\\internal-html-core-runtime-js\\1.6.11\\eb60e3896fd1c291da31f50c44136065d0260c24\\internal-html-core-runtime-js-1.6.11.klib"
+    },
+    "e86977a5ad11cf7df37cad9a44dfcccf": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\kobweb-core\\0.19.2\\24e5dabf852f1136b1c6becd0c2b1a39db90cdc1\\kobweb-core-js-0.19.2.klib"
+    },
+    "0f56c968926cf29187ba483f8e29710a": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\compose-html-ext\\0.19.2\\a332d25ed203364fa978de200eb07845750671b7\\compose-html-ext-js-0.19.2.klib"
+    },
+    "1f4f5afb0bd158779b90c8f13e512587": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\browser-ext\\0.19.2\\5f4af94c2f0d3c882fafb0549fc0844c0d442820\\browser-ext-js-0.19.2.klib"
+    },
+    "be63d08341dd94f33cff26fb00152124": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-serialization-json-js\\1.7.1\\a6037b5a1642fc66fedbd260264a5e1d5258b320\\kotlinx-serialization-json-js-1.7.1.klib"
+    },
+    "891831b6147a2c8907e6dd2c5ed12070": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlinx\\kotlinx-serialization-core-js\\1.7.1\\ae062cc98977062d0ca101b73905e615b5dd17a2\\kotlinx-serialization-core-js-1.7.1.klib"
+    },
+    "d968c3d88cc3f53dd0673722a4303db1": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\kobweb-client-server-internal-js\\0.19.2\\dbfd79c5e4a6ba31789b5bfbfd949dc74b9b2eb1\\client-server-internal-js-0.19.2.klib"
+    },
+    "3d0b221ae2bb68797cd03e65de1ba2d3": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\kobweb-silk\\0.19.2\\cec69442ec567e46e43c2310dd3fdb3354049055\\kobweb-silk-js-0.19.2.klib"
+    },
+    "89ea1230317daaebbf7e9b968c41de63": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\silk-widgets-kobweb\\0.19.2\\471587813a456a7926a0413d776f516307dc00c\\silk-widgets-kobweb-js-0.19.2.klib"
+    },
+    "deee8d17dbe2d9b56f836184093f0739": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\silk-widgets\\0.19.2\\7ab9da06eb601c495335eb3f9e1e6d55cac4907f\\silk-widgets-js-0.19.2.klib"
+    },
+    "f199663561e89891bfbd7b96888443c8": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\silk-foundation\\0.19.2\\b17106ba821c33eb58ae05507f1e213ac2d8635\\silk-foundation-js-0.19.2.klib"
+    },
+    "c8d630ef05b218208382d2d97386089e": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobweb\\kobweb-compose\\0.19.2\\a58573023b1672f69f0431831d30d6f605741969\\kobweb-compose-js-0.19.2.klib"
+    },
+    "a00f6e812590309c13fd18af9e8354f6": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobwebx\\silk-icons-fa\\0.19.2\\3aab43c2dfb4226bdbe419a8a9942250f79ad8a7\\silk-icons-fa-js-0.19.2.klib"
+    },
+    "09be5ae36349c406ace702df9c0ac6e8": {
+      "src": "C:\\Users\\hp\\.gradle\\caches\\modules-2\\files-2.1\\com.varabyte.kobwebx\\kobwebx-markdown\\0.19.2\\780ff6c53a4e8eb3dd6efefa8a2985021b4e72b9\\kobwebx-markdown-js-0.19.2.klib"
+    }
+  }
+}
