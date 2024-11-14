@@ -36,6 +36,8 @@ kobweb {
 kotlin {
     configAsKobwebApplication("landingpage")
 
+    jvmToolchain(17)
+
     sourceSets {
         commonMain.dependencies {
             implementation(libs.compose.runtime)
