@@ -11,6 +11,9 @@ plugins {
 
 group = "org.example.landingpage"
 version = "1.0-SNAPSHOT"
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
+}
 
 kobweb {
     app {
